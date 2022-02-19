@@ -8,9 +8,8 @@
  * @format
  */
 
-import React, {useEffect} from 'react';
+import React from 'react';
 import {
-  Alert,
   SafeAreaView,
   ScrollView,
   StatusBar,
@@ -27,7 +26,7 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import * as exportSuru from './app/exportSuru';
+import * as exportSuru from './exportSuru';
 
 exportSuru;
 
